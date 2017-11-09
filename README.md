@@ -13,7 +13,9 @@ And it should boot right up. If not, you can use the following process.
 
 ## Follow this to rebuild
 
-For the most part you can copy and paste this repository and edit to your hearts content. There are a few step's you'll need to take immediately following the `create-react-app` initiation. This come's from Mr. Kinkead's Medium post.
+For the most part you can copy and paste all of the Docker files in this repository, and edit to your hearts content. Inside the backend folder use the `express-generator` to create an express app called "app". Then in the frontend do the same thing but with `create-react-app`, also called "app". 
+
+There are a few step's you'll need to take immediately following the `create-react-app` initiation. This come's from Mr. Kinkead's Medium post.
 
 `cd` into the React application directory and run `npm run eject`. You will be prompted with "This is permanent, are you sure?" Say yes.
 
